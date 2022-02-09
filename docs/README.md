@@ -48,7 +48,7 @@ export default (context, next) => {
 
 App.js
 
-Use the rollup plugin or webpack loader to compile the rule file into javascript.
+Use the [rollup plugin](https://github.com/ruleenginejs/rollup-plugin-rule), [webpack loader](https://github.com/ruleenginejs/rule-loader) or [VS Code Extension](https://marketplace.visualstudio.com/items?itemName=ruleengine.vscode-ruleengine-compiler) to compile the rule file into javascript.
 
 ```javascript
 import helloWorld from './hello-world.rule';
