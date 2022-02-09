@@ -2,7 +2,7 @@ module.exports = {
   logo: '/logo.png',
   navbar: [
     { text: 'Guide', link: '/guide/getting-started.md' },
-    { text: 'Components', link: '/components/' },
+    { text: 'API', link: '/api/' },
     { text: 'Examples', link: '/examples/' },
     { text: "GitHub", link: "https://github.com/ruleenginejs/ruleengine" }
   ],
