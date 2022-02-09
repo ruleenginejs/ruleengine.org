@@ -1,4 +1,4 @@
-import{c as n}from"./app.e8560867.js";import{_ as s}from"./plugin-vue_export-helper.21dcd24c.js";const a={},p=n(`<h2 id="installation" tabindex="-1"><a class="header-anchor" href="#installation" aria-hidden="true">#</a> Installation</h2><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code><span class="token comment"># install with npm</span>
+import{c as n}from"./app.b787dc12.js";import{_ as s}from"./plugin-vue_export-helper.21dcd24c.js";const a={},p=n(`<h2 id="installation" tabindex="-1"><a class="header-anchor" href="#installation" aria-hidden="true">#</a> Installation</h2><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code><span class="token comment"># install with npm</span>
 <span class="token function">npm</span> <span class="token function">install</span> @ruleenginejs/runtime
 
 <span class="token comment"># install with yarn</span>
