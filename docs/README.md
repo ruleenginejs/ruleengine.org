@@ -3,7 +3,7 @@ home: true
 title: Home
 heroImage: logo.png
 heroText: Rule Engine
-tagline: Pipeline using steps with visual editor for VS Code written on javascript.
+tagline: Rules based on pipeline concept created with a visual editor for javascript.
 actions:
   - text: Get Started →
     link: /guide/getting-started.html
