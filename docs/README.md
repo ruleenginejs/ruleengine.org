@@ -33,6 +33,31 @@ yarn add @ruleenginejs/runtime
 
 ## Usage
 
+hello-world.rule
+
+![Hello World](/hello.png)
+
+hello-world.js
+
+```javascript
+export default (context, next) => {
+  console.log('Hello, world!');
+  next();
+}
+```
+
+App.js
+
+Use the rollup plugin or webpack loader to compile the rule file into javascript.
+
+```javascript
+import helloWorld from './hello-world.rule';
+
+helloWorld.execute();
+```
+
+### Create manually:
+
 foo.js
 
 ```javascript
@@ -57,8 +82,8 @@ export default pipeline;
 
 App.js
 
-```js
-import foo from 'foo.js';
+```javascript
+import foo from './foo.js';
 
 const context = {};
 foo.execute(context).catch(e => console.error(e));
