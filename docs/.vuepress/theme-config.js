@@ -4,7 +4,7 @@ module.exports = {
     { text: 'Guide', link: '/guide/getting-started.md' },
     { text: 'API', link: '/api/' },
     { text: 'Examples', link: '/examples/' },
-    { text: "GitHub", link: "https://github.com/ruleenginejs/ruleengine" }
+    { text: "GitHub", link: "https://github.com/ruleenginejs" }
   ],
   sidebar: [
     {
