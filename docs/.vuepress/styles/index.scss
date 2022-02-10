@@ -6,3 +6,18 @@
   // custom container colors
   --c-tip: #39A2DB;
 }
+
+html.dark {
+  --c-bg: #1e1e1e;
+  --c-text: rgba(255, 255, 255, .87);
+  --code-bg-color: #242424;
+  --c-border: rgba(84, 84, 84, .48);
+
+  --c-text-light: rgba(255, 255, 255, .87);
+  --c-text-lighter: rgba(235, 235, 235, .6);
+  --c-text-lightest: rgba(235, 235, 235, .38);
+}
+
+.home .hero .description {
+  font-size: 1.4rem;
+}

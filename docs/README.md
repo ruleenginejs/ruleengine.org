@@ -33,11 +33,11 @@ yarn add @ruleenginejs/runtime
 
 ## Usage
 
-hello-world.rule
+foo.rule
 
-![Hello World](/hello.png)
+![Hello](/hello.png)
 
-hello-world.js
+hello-step.js
 
 ```javascript
 export default (context, next) => {
@@ -51,8 +51,7 @@ App.js
 Use the [rollup plugin](https://github.com/ruleenginejs/rollup-plugin-rule), [webpack loader](https://github.com/ruleenginejs/rule-loader) or [VS Code Extension](https://marketplace.visualstudio.com/items?itemName=ruleengine.vscode-ruleengine-compiler) to compile the rule file into javascript.
 
 ```javascript
-import helloWorld from './hello-world.rule';
+import foo from './foo.rule';
 
-helloWorld.execute()
-  .catch(e => console.error(e));
+foo.execute().catch(e => console.error(e));
 ```
