@@ -3,13 +3,13 @@ home: true
 title: Home
 heroImage: logo.png
 heroText: Rule Engine
-tagline: Rules based on pipeline concept created with a visual editor for javascript.
+tagline: Pipelines creating with the visual VS Code Editor for javascript.
 actions:
   - text: Get Started →
     link: /guide/getting-started.html
     type: primary
   - text: Install VS Code Extension
-    link: https://marketplace.visualstudio.com/items?itemName=ruleengine.vscode-ruleengine-editor
+    link: https://marketplace.visualstudio.com/items?itemName=ruleengine.vscode-ruleengine-pack
     type: secondary
 features:
   - title: Editor
@@ -53,5 +53,6 @@ Use the [rollup plugin](https://github.com/ruleenginejs/rollup-plugin-rule), [we
 ```javascript
 import helloWorld from './hello-world.rule';
 
-helloWorld.execute();
+helloWorld.execute()
+  .catch(e => console.error(e));
 ```
