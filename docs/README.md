@@ -3,7 +3,7 @@ home: true
 title: Home
 heroImage: logo.png
 heroText: Rule Engine
-tagline: Pipelines creating with the visual VS Code Editor for javascript.
+tagline: Pipeline creation using the visual VS Code Editor for javascript.
 actions:
   - text: Get Started →
     link: /guide/getting-started.html

@@ -6,13 +6,29 @@ module.exports = {
     { text: 'Examples', link: '/examples/' },
     { text: "GitHub", link: "https://github.com/ruleenginejs" }
   ],
-  sidebar: [
-    {
-      text: 'Guide',
-      collapsable: false,
-      children: [
-        '/guide/getting-started.md'
-      ]
-    }
-  ]
+  sidebar: {
+    '/guide/': [
+      {
+        text: 'Guide',
+        collapsable: true,
+        children: [
+          '/guide/getting-started.md'
+        ]
+      }
+    ],
+    '/api/': [
+      {
+        text: 'API Reference',
+        collapsable: true,
+        children: []
+      }
+    ],
+    '/examples/': [
+      {
+        text: 'Examples',
+        collapsable: true,
+        children: []
+      }
+    ]
+  }
 };
