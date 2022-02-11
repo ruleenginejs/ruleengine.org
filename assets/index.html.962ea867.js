@@ -1,4 +1,4 @@
-import{r as o,o as p,c,a as s,b as e,F as l,d as t,e as n}from"./app.1b3d908c.js";import{_ as r}from"./plugin-vue_export-helper.21dcd24c.js";var i="/hello.png";const u={},d=t(`<h2 id="installation" tabindex="-1"><a class="header-anchor" href="#installation" aria-hidden="true">#</a> Installation</h2><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code><span class="token comment"># install with npm</span>
+import{r as o,o as p,c,a as s,b as e,F as l,d as t,e as n}from"./app.81443808.js";import{_ as r}from"./plugin-vue_export-helper.21dcd24c.js";var i="/hello.png";const u={},d=t(`<h2 id="installation" tabindex="-1"><a class="header-anchor" href="#installation" aria-hidden="true">#</a> Installation</h2><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code><span class="token comment"># install with npm</span>
 <span class="token function">npm</span> <span class="token function">install</span> @ruleenginejs/runtime
 
 <span class="token comment"># install with yarn</span>
