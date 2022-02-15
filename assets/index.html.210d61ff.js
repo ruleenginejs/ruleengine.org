@@ -1,1 +1,0 @@
-import{o as e,c as r,a as t,e as a}from"./app.81443808.js";import{_ as c}from"./plugin-vue_export-helper.21dcd24c.js";const o={},s={id:"api-reference",tabindex:"-1"},n=t("a",{class:"header-anchor",href:"#api-reference","aria-hidden":"true"},"#",-1),_=a(" API Reference"),d=[n,_];function i(f,h){return e(),r("h1",s,d)}var l=c(o,[["render",i]]);export{l as default};
