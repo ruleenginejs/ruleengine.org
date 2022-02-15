@@ -1,7 +1,7 @@
 module.exports = {
   logo: '/logo.png',
   navbar: [
-    { text: 'Guide', link: '/guide/getting-started.md' },
+    { text: 'Guide', link: '/guide/quick-start.md' },
     { text: 'API', link: '/api/' },
     { text: 'Examples', link: '/examples/' },
     { text: "GitHub", link: "https://github.com/ruleenginejs" }
@@ -9,10 +9,23 @@ module.exports = {
   sidebar: {
     '/guide/': [
       {
-        text: 'Guide',
+        text: 'Getting Started',
         collapsable: true,
         children: [
-          '/guide/getting-started.md'
+          '/guide/introduction.md',
+          '/guide/quick-start.md'
+        ]
+      },
+      {
+        text: 'Essentials',
+        collapsable: true,
+        children: [
+          '/guide/essentials/pipelines.md',
+          '/guide/essentials/visual-editor.md',
+          '/guide/essentials/compilation.md',
+          '/guide/essentials/rule-file.md',
+          '/guide/essentials/webpack-loader.md',
+          '/guide/essentials/rollup-plugin.md',
         ]
       }
     ],

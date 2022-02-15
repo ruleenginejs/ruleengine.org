@@ -6,7 +6,7 @@ heroText: Rule Engine
 tagline: Pipeline creation using the visual VS Code Editor for javascript.
 actions:
   - text: Get Started →
-    link: /guide/getting-started.html
+    link: /guide/quick-start.html
     type: primary
   - text: Install VS Code Extension
     link: https://marketplace.visualstudio.com/items?itemName=ruleengine.vscode-ruleengine-pack

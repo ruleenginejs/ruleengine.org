@@ -21,3 +21,12 @@ html.dark {
 .home .hero .description {
   font-size: 1.4rem;
 }
+
+
+.sidebar-item.sidebar-heading {
+  font-size: 1em;
+}
+
+.sidebar-item:not(.sidebar-heading) {
+  font-size: 0.9em;
+}

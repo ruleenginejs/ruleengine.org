@@ -1,60 +1,16 @@
 ---
-title: Getting Started
-description: Getting started with Rule Engine
+title: Visual Editor
+description: Creating a pipeline using the editor
 meta:
   - name: og:title
-    content: Getting Started
+    content: Visual Editor
   - name: og:description
-    content: Getting started with Rule Engine
+    content: Creating a pipeline using the editor
 ---
 
-# Getting Started
+# Visual Editor
 
-## Installation
-
-#### npm
-
-```bash
-npm install @ruleenginejs/runtime
-```
-
-#### yarn
-
-```bash
-yarn add @ruleenginejs/runtime
-```
-
-## Usage
-
-Create pipeline:
-
-```js
-import {
-  Pipeline,
-  StartStep,
-  EndStep,
-  SingleStep
-} from "@ruleenginejs/runtime";
-
-const pipeline = new Pipeline();
-const start = new StartStep();
-const end = new EndStep();
-const step = new SingleStep({
-  handler: (context, next) => {
-    next();
-  }
-});
-
-start.connectTo(step);
-step.connectTo(end);
-
-pipeline.add(start, end, step);
-
-const context = {};
-pipeline.execute(context).catch(e => console.error(e));
-```
-
-You can create a pipeline in the rules engine manually, but it's better to do it using a visual editor.
+## How To Use
 
 - Install [VS Code Rule Engine Editor](https://marketplace.visualstudio.com/items?itemName=ruleengine.vscode-ruleengine-editor).
 - Create new `foo.rule` and open file in VS Code editor.
