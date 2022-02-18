@@ -1,14 +1,14 @@
 ---
-title: Visual Editor
+title: Rule Editor
 description: Creating a pipeline using the editor
 meta:
   - name: og:title
-    content: Visual Editor
+    content: Rule Editor
   - name: og:description
     content: Creating a pipeline using the editor
 ---
 
-# Visual Editor
+# Rule Editor
 
 ## How To Use
 

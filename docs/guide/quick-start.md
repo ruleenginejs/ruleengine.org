@@ -26,7 +26,7 @@ yarn add @ruleenginejs/runtime
 
 ## Usage
 
-> You can create a pipeline in the Rule Engine manually, but it's better to do it using a [visual editor](/guide/essentials/visual-editor.html).
+> You can create a pipeline in the Rule Engine manually, but it's better to do it using a [rule editor](/guide/essentials/rule-editor.html).
 
 Create simple pipeline:
 

@@ -21,7 +21,7 @@ module.exports = {
         collapsable: true,
         children: [
           '/guide/essentials/pipelines.md',
-          '/guide/essentials/visual-editor.md',
+          '/guide/essentials/rule-editor.md',
           '/guide/essentials/compilation.md',
           '/guide/essentials/rule-file.md',
           '/guide/essentials/webpack-loader.md',
