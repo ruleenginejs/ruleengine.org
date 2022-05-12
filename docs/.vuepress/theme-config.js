@@ -4,17 +4,14 @@ module.exports = {
     { text: 'Guide', link: '/guide/quick-start.md' },
     { text: 'API', link: '/api/' },
     { text: 'Examples', link: '/examples/' },
-    { text: "GitHub", link: "https://github.com/ruleenginejs" }
+    { text: 'GitHub', link: 'https://github.com/ruleenginejs' }
   ],
   sidebar: {
     '/guide/': [
       {
         text: 'Getting Started',
         collapsable: true,
-        children: [
-          '/guide/introduction.md',
-          '/guide/quick-start.md'
-        ]
+        children: ['/guide/introduction.md', '/guide/quick-start.md']
       },
       {
         text: 'Essentials',
@@ -25,7 +22,7 @@ module.exports = {
           '/guide/essentials/compilation.md',
           '/guide/essentials/rule-file.md',
           '/guide/essentials/webpack-loader.md',
-          '/guide/essentials/rollup-plugin.md',
+          '/guide/essentials/rollup-plugin.md'
         ]
       }
     ],

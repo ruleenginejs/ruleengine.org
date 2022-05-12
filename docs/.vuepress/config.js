@@ -1,19 +1,20 @@
-const { path } = require('@vuepress/utils')
+const { defaultTheme } = require('vuepress');
+const {
+  registerComponentsPlugin
+} = require('@vuepress/plugin-register-components');
+const { path } = require('@vuepress/utils');
 const themeConfig = require('./theme-config');
 
 module.exports = {
   title: 'Rule Engine',
   description: 'Documentations, API, and FAQ for Rule Engine',
-  head: [
-    ['link', { rel: 'icon', type: 'image/png', href: '/favicon.png' }]
-  ],
-  themeConfig,
+  head: [['link', { rel: 'icon', type: 'image/png', href: '/favicon.png' }]],
+  theme: defaultTheme(themeConfig),
   plugins: [
     [
-      '@vuepress/register-components',
-      {
-        componentsDir: path.resolve(__dirname, './components'),
-      }
+      registerComponentsPlugin({
+        componentsDir: path.resolve(__dirname, './components')
+      })
     ]
   ]
-}
+};
