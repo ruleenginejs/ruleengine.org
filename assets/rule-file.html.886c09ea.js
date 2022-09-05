@@ -1,1 +1,0 @@
-import{_ as e,o as t,c as s,a as r,e as a}from"./app.f3b72ffa.js";const o={},c={id:"rule-files",tabindex:"-1"},_=r("a",{class:"header-anchor",href:"#rule-files","aria-hidden":"true"},"#",-1),l=a(" Rule Files"),i=[_,l];function n(d,h){return t(),s("h1",c,i)}var u=e(o,[["render",n],["__file","rule-file.html.vue"]]);export{u as default};

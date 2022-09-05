@@ -1,1 +1,0 @@
-import{_ as e,o as s,c as t,a,e as i}from"./app.f3b72ffa.js";const n={},o={id:"pipelines",tabindex:"-1"},c=a("a",{class:"header-anchor",href:"#pipelines","aria-hidden":"true"},"#",-1),_=i(" Pipelines"),r=[c,_];function d(l,p){return s(),t("h1",o,r)}var f=e(n,[["render",d],["__file","pipelines.html.vue"]]);export{f as default};
