@@ -8,8 +8,7 @@
     "dev": "vuepress dev docs",
     "build": "vuepress build docs",
     "lint": "eslint . --ext .vue,.js --fix --ignore-path .gitignore",
-    "format": "prettier --write \"**/*.{js,vue,css,scss}\" --ignore-path .gitignore",
-    "prepare": "husky install"
+    "format": "prettier --write \"**/*.{js,vue,css,scss}\" --ignore-path .gitignore"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.1.2",
