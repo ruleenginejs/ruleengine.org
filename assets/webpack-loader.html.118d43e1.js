@@ -1,0 +1,1 @@
+import{_ as a,o as r,c,a as e,e as o}from"./app.c847ed2f.js";const t={},d=e("h1",{id:"webpack-loader",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#webpack-loader","aria-hidden":"true"},"#"),o(" Webpack Loader")],-1),s=[d];function _(n,l){return r(),c("div",null,s)}var h=a(t,[["render",_],["__file","webpack-loader.html.vue"]]);export{h as default};

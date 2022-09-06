@@ -1,4 +1,4 @@
-import{_ as o}from"./hello.c129bc5d.js";import{_ as i,o as p,c,a as s,b as e,d as t,e as n,r as l}from"./app.fd736f6b.js";const r={},u=t(`<h2 id="installation" tabindex="-1"><a class="header-anchor" href="#installation" aria-hidden="true">#</a> Installation</h2><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code><span class="token comment"># install with npm</span>
+import{_ as o}from"./hello.c129bc5d.js";import{_ as i,o as p,c,a as s,b as e,d as t,e as n,r as l}from"./app.c847ed2f.js";const r={},u=t(`<h2 id="installation" tabindex="-1"><a class="header-anchor" href="#installation" aria-hidden="true">#</a> Installation</h2><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code><span class="token comment"># install with npm</span>
 <span class="token function">npm</span> <span class="token function">install</span> @ruleenginejs/runtime
 
 <span class="token comment"># install with yarn</span>
